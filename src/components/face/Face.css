@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.face{
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 100px;
+    animation: slide .5s ease-in-out;
+}
+
+.face p{
+    color: white;
+    margin-top: 10px;
+}
+
+.p1 p{
+    font-size: 30px;
+    color: violet;
+    animation: slidea .7s ease-in-out;
+}
+
+.p2 p{
+    font-size: 50px;
+}
+
+.p3 p{
+    font-size: 30px;
+    color: violet;
+    animation: slidea .7s ease-in-out;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes slidea {
+    0%{
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

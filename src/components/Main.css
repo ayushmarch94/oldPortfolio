@@ -3,9 +3,8 @@
     padding: 0px;
 }
 
-.a{
-    border: 2px solid red;
-    width: 30%;
-    height: 30%;
+.page{
+    margin-top: -10px;
+    padding: 0px;
+    background-color: black;
 }
-

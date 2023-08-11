@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.a{
+    border: 2px solid red;
+    width: 30%;
+    height: 30%;
+}
+

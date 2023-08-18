@@ -1,0 +1,9 @@
+@media screen and (max-width: 745px){
+    .face{
+        background-color: black;
+        margin-left: 50px;
+        margin-top: 620px;
+        animation: slide .5s ease-in-out;
+    }
+}
+

@@ -1,0 +1,45 @@
+@media screen and (max-width: 745px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .navbar p{
+        margin-top: 40px;
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        animation: slide-down .5s ease-in-out;
+    }
+    .navbar p:hover{
+        font-size: 35px;
+        color: violet;
+        font-weight: bold;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    li{
+        color: white;
+        list-style: none;
+        font-size: 60px;
+        transition: 0.3s;
+    }
+    li:hover{
+        color: violet;
+        cursor: pointer;
+        list-style: none;
+        font-size: 25px;
+    }
+    
+}

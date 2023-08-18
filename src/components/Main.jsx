@@ -1,20 +1,20 @@
-import React from "react";
 import './Main.css';
-import Navbar from "./navbar/Navbar";
 import Face from "./face/Face";
+import AboutMe from "./about-me/AboutMe";
+import Navbar from "./navbar/Navbar";
 
 export default function Main() {
   return (
     <div>
       <>
-        <div class="page">
+        <div className="page">
           <div><Navbar /></div>
           <div><Face /></div>
+           <div ><AboutMe /></div>
+          {/*<div>hello</div>
           <div>hello</div>
           <div>hello</div>
-          <div>hello</div>
-          <div>hello</div>
-          <div>hello</div>
+          <div>hello</div> */}
         </div>
       </>
     </div>

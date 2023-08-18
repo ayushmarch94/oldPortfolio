@@ -46,8 +46,9 @@
     color: violet;
 }
 
-.home{
+#home{
     color: violet;
+    font-weight: bold;
 }
 
 ul{
@@ -69,4 +70,28 @@ li:hover{
     cursor: pointer;
     list-style: none;
     font-size: 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+li a:hover{
+    text-decoration: none;
+    color: violet;
+}
+
+.scrollDown{
+    animation: aboutScroll .5s ease-in-out;
+}
+
+@keyframes aboutScroll {
+    0%{
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(100px);
+    }
 }

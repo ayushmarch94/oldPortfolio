@@ -10,7 +10,7 @@ export default function Main() {
         <div className="page">
           <div><Navbar /></div>
           <div><Face /></div>
-           <div ><AboutMe /></div>
+           <div><AboutMe /></div>
           {/*<div>hello</div>
           <div>hello</div>
           <div>hello</div>

@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-.about{
+#about{
     height: 500px;
     width: 100%;
     background-color: black;
     display: flex;
 }
 
-.about p{
+#about p{
     color: white;
     font-size: 20px;
     margin: 100px;
 }
 
-.about img{
+#about img{
     border-radius: 5px;
     height: 270px;
     width: 30%;
     margin: 100px;
 }
 
-.about.animate img{
+#about.animate img{
     animation: about-img .7s ease-in-out;
   }  
-.about.animate p{
+#about.animate p{
     animation: aboutP .7s ease-in-out;
   }  
 

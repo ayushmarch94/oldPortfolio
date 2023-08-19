@@ -10,7 +10,7 @@ export default function Navbar() {
         <p>Web Developer</p>
         <ul>
           <li id="home"> 
-            <a  className="scrollDown" href="#about">
+            <a  className="scrollDown" href=".face">
             </a>
               Home
           </li>
@@ -20,7 +20,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="scrollDown" href="#about">
+            <a className="scrollDown" href="#Projects">
               Projects
             </a>
           </li>

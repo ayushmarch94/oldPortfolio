@@ -4,7 +4,7 @@ import "./FaceR.css";
 
 export default function Face() {
   return (
-    <div className="face">
+    <div id="face" className="face">
       <div className="face-main">
         <div className="face-text">
           <div className="p1"><p>Hello, my name is</p></div>

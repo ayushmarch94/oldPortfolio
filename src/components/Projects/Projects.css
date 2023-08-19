@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.Projects{
+#Projects{
     height: 800px;
     width: 100%;
     background-color: black;
@@ -32,4 +32,24 @@
     margin: 0px;
     padding: 0px;
     border-radius: 8px;
+}
+
+.redirect {
+    height: 100px;
+    width: 90%;
+    margin: 10px;
+}
+
+.redirect img{
+    margin: 10px;
+    border-radius: 30px;
+    filter: invert(1) hue-rotate(180deg) brightness(0.5);
+    transition: 0.3s;
+}
+.redirect img:hover{
+    margin: 10px;
+    border-radius: 30px;
+    filter: invert(1) hue-rotate(180deg) brightness(0.5);
+    width: 40px;
+    cursor: pointer;
 }

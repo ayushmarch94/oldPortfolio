@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Contact{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact img{
+    width: 100px;
+    transition: 0.3s;
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+#Contact img:hover{
+    width: 150px;
+}
+
+#Contact p{
+    color: white;
+    margin: 50px;
+}

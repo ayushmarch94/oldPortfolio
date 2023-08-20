@@ -25,7 +25,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="scrollDown" href="#about">
+            <a className="scrollDown" href="#Contact">
             Contact Me
             </a>
           </li>

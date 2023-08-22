@@ -24,7 +24,7 @@ export default function AboutMe() {
     <div id="about">
         <img src={require("../../images/aboutme.gif")} />
         <p>
-          My name is Ayush Kumar and I am a skilled JavaScript web developer with expertise in the React.js framework. I have successfully completed several projects using this technology and have a strong understanding of its capabilities. In addition to my front-end development skills, I also have knowledge of the Python programming language, which is a backend  programming language and I am dedicated to delivering high-quality work on every project.
+          My name is Ayush Kumar and I am a skilled JavaScript web developer with expertise in the React.js framework. I have strong understanding of its capabilities. 
         </p>
     </div>
   );

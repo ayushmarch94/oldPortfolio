@@ -2,21 +2,22 @@
 
 #about{
     height: 500px;
-    width: 100%;
+    width: 90%;
     background-color: black;
     display: flex;
+    margin-left: 3%;
 }
 
 #about p{
     color: white;
     font-size: 20px;
-    margin: 100px;
+    margin-top: 7%;
 }
 
 #about img{
     border-radius: 5px;
     height: 270px;
-    width: 30%;
+    width: 400px;
     margin: 100px;
 }
 

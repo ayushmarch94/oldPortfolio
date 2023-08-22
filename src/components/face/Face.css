@@ -5,14 +5,16 @@
 
 .face{
     background-color: black;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 3%;
     animation: slide .5s ease-in-out;
 }
 
 .face p{
     color: white;
     margin-top: 10px;
+    min-width: 350px;
 }
 
 .p1 p{
@@ -82,9 +84,9 @@
 
 .face-main{
     display: flex;
+    justify-content: space-between;
 }
 
 .face-main img{
-    margin-left: 40%;
     border-radius: 5px;
 }

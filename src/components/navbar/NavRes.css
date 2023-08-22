@@ -1,7 +1,8 @@
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 800px) {
     .navbar{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
 

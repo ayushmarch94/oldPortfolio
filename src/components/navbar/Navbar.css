@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+.phonebar{
+    display: none;
+}
 .navbar{
     background-color: black;
     width: 100%;

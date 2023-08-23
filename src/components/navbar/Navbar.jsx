@@ -6,6 +6,9 @@ import "../about-me/AboutMe";
 export default function Navbar() {
   return (
     <>
+      <div className="phonebar">
+        <img src={require("../../images/menu.png")} width={80} />
+      </div>
       <div className="navbar">
         <p>Web Developer</p>
         <ul>
@@ -31,6 +34,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
+
     </>
   );
 }

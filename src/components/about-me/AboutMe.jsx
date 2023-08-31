@@ -3,22 +3,6 @@ import "./AboutMe.css";
 import "./AboutR.css";
 
 export default function AboutMe() {
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("animate");
-          entry.target.querySelector("p").classList.add("animate");
-        } else {
-          entry.target.classList.remove("animate");
-          entry.target.querySelector("p").classList.remove("animate");
-        }
-      });
-    });
-
-    const element = document.querySelector("#about");
-    observer.observe(element);
-  }, []);
 
   return (
     <div id="about">

@@ -6,9 +6,7 @@
     background-color: black;
     display: flex;
     margin-left: 3%;
-
 }
-
 
 #about p{
     color: white;
@@ -21,30 +19,4 @@
     height: 270px;
     width: 400px;
     margin: 100px;
-}
-
-#about.animate img{
-    animation: about-img .7s ease-in-out;
-  }  
-#about.animate p{
-    animation: aboutP .7s ease-in-out;
-  }  
-
-
-
-@keyframes about-img {
-    0%{
-        transform: translateX(-200px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
-}
-@keyframes aboutP {
-    0%{
-        transform: translateX(200px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
 }

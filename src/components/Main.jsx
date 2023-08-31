@@ -15,8 +15,6 @@ export default function Main() {
            <div><AboutMe /></div>
           <div><Projects /></div>
           <div><Contact /></div>
-          {/*<div>hello</div>
-          <div>hello</div> */}
         </div>
       </>
     </div>

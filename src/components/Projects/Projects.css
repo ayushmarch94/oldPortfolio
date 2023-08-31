@@ -17,16 +17,14 @@
 }
 
 .compdiv{
-    height: 300px;
+    height: 230px;
     width: 300px;
     border: 2px solid whitesmoke;
     margin: 50px;
     border-radius: 10px;
-}
-
-.compdiv{
     color: white;
 }
+
 
 .image img{
     margin: 0px;
@@ -35,9 +33,11 @@
 }
 
 .redirect {
-    height: 100px;
+    height: 50px;
     width: 90%;
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .redirect img{
@@ -45,6 +45,7 @@
     border-radius: 30px;
     filter: invert(1) hue-rotate(180deg) brightness(0.5);
     transition: 0.3s;
+    margin-left: 10px;
 }
 .redirect img:hover{
     margin: 10px;
@@ -52,4 +53,9 @@
     filter: invert(1) hue-rotate(180deg) brightness(0.5);
     width: 40px;
     cursor: pointer;
+}
+
+.redirect p{
+    margin-top: 10px;
+    margin-left: 10px;
 }

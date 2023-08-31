@@ -12,8 +12,8 @@ export default function Contact() {
   
 
   return (
-    <div id="Contact" onClick={redirect}>
-      <img src={require('../../images/linkedin.png')} width={100} />
+    <div id="Contact" >
+      <img onClick={redirect} src={require('../../images/linkedin.png')} width={100} />
       <p>Contact me</p>
     </div>
   )

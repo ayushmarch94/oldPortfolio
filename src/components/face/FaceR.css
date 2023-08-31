@@ -30,11 +30,13 @@
         text-align: center;
     }
 
-
+    .linker{
+        display: flex;
+        justify-content: center;
+    }
     .linker img{
         width: 100px;
-        margin-left: 20%;
-        text-align: center;
+        margin-left: 5%;
     }
 }
 

@@ -19,13 +19,25 @@ export default function Projects() {
                 src={require("../../images/github.png")}
                 width={30}
               />
-              <p>Code</p>
+              <p
+                style={{ cursor: "pointer" }}
+                onClick={() => window.open(project.code, "_blank")}
+              >
+                Code
+              </p>
+
               <img
                 onClick={() => window.open(project.site, "_blank")}
                 src={require("../../images/browser.png")}
                 width={30}
               />
-              <p>Site</p>
+              <p
+                style={{ cursor: "pointer" }}
+                onClick={() => window.open(project.site, "_blank")}
+                src={require("../../images/browser.png")}
+              >
+                Site
+              </p>
             </div>
           </div>
         ))}

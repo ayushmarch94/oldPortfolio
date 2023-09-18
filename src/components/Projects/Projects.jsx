@@ -5,7 +5,19 @@ import Array from "./Array";
 
 export default function Projects() {
   return (
-    <div id="Projects" className="Projects">
+    <div
+    
+    data-aos="flip-left"
+    data-aos-offset="200"
+    data-aos-delay="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+    
+    
+    id="Projects" className="Projects">
       <div className="Components">
         {Array.map((project) => (
           <div className="compdiv" key={project.key}>

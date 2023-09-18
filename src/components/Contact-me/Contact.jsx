@@ -8,14 +8,12 @@ export default function Contact() {
 
   return (
     <>
-      <div id="Contact">
-        <img
-          onClick={redirect}
-          src={require("../../images/linkedin.png")}
-          width={100}
-        />
-
-        <p>Contact me</p>
+      <div className="footer">
+        <div className="icons">
+          <div id="logo">
+            <img src={require("../../images/gmail.png")} width={30} />
+          </div>
+        </div>
       </div>
     </>
   );

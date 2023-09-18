@@ -11,7 +11,11 @@ export default function Main() {
       <>
         <div className="page">
           <div><Navbar /></div>
-          <div><Face /></div>
+          <div
+          
+          
+
+          ><Face /></div>
            <div><AboutMe /></div>
           <div><Projects /></div>
           <div><Contact /></div>

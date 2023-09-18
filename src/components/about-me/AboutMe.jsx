@@ -5,7 +5,18 @@ import "./AboutR.css";
 export default function AboutMe() {
 
   return (
-    <div id="about">
+    <div 
+    
+    data-aos="flip-left"
+    data-aos-offset="100"
+    data-aos-delay="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+    
+    id="about">
       <img src={require("../../images/aboutme.gif")} />
       <p>
         My name is Ayush Kumar and I am a skilled JavaScript web developer with

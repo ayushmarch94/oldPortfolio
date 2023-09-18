@@ -1,3 +1,4 @@
-1. add gmail link in portfolio site
+1. add UI UX  
+1.add gmail contact form in portfolio site
 2. make array for code and link of projects
 3. update images of components of projects

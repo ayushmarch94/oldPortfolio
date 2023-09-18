@@ -5,13 +5,29 @@ import "./FaceR.css";
 export default function Face() {
   return (
     <div id="face" className="face">
-      <div className="face-main">
+      <div
+        data-aos="flip-left"
+        data-aos-offset="0"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        className="face-main"
+      >
         <div className="face-text">
-          <div className="p1"><p>Hello, my name is</p></div>
-          <div className="p2"><p>Ayush Kumar</p></div>
-          <div className="p3"><p>Web Developer</p></div>
+          <div className="p1">
+            <p>Hello, my name is</p>
+          </div>
+          <div className="p2">
+            <p>Ayush Kumar</p>
+          </div>
+          <div className="p3">
+            <p>Web Developer</p>
+          </div>
         </div>
-        <img src={require("../../images/front.gif")} width={300}/>
+        <img src={require("../../images/front.gif")} width={300} />
       </div>
       <div className="linker">
         <img

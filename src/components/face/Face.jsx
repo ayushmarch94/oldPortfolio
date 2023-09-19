@@ -6,7 +6,7 @@ export default function Face() {
   return (
     <div id="face" className="face">
       <div
-        data-aos="flip-left"
+        data-aos="fade-left"
         data-aos-offset="0"
         data-aos-delay="0"
         data-aos-duration="1000"

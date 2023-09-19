@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <div 
     
-    data-aos="flip-left"
+    data-aos="fade-left"
     data-aos-offset="100"
     data-aos-delay="0"
     data-aos-duration="1000"
